@@ -1,0 +1,164 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smooothing: antialiased !important;
+}
+
+input,
+button {
+  outline: none;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background-color: #ffd3f7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h1 {
+  font-family: Sacramento, Arial, Helvetica;
+  font-size: 30px;
+  color: #112a46;
+}
+
+h2 {
+  display: flex;
+  font-family: Sacramento, Arial, Helvetica;
+  font-size: 22px;
+  justify-content: center;
+  color: #112a46;
+}
+
+.header-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header-text {
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-icons {
+  height: 100%;
+  width: 5%;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  display: flex;
+  padding-right: 10px;
+  font-size: 24px;
+  color: #112a46;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: #112a46;
+}
+
+#container {
+  background-color: #ffd3f7;
+  width: 600px;
+  height: 450px;
+  min-width: 400px;
+  min-height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.cadastro {
+  display: flex;
+  justify-content: center;
+  font-family: Sacramento, Arial, Helvetica;
+  font-size: 50px;
+  color: #112a46;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+#form input {
+  border: 2px solid #112a46;
+  border-radius: 4px;
+  height: 30px;
+  padding-left: 5px;
+  margin-top: 5px;
+}
+
+.cpf {
+  display: flex;
+  flex-direction: row;
+}
+
+#cpf {
+  width: 100px;
+}
+
+#phone {
+  margin-left: 5px;
+  width: 105px;
+}
+
+#cep {
+  margin-left: 5px;
+}
+
+#cidade {
+  width: 120px;
+}
+
+#uf {
+  width: 50px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #112a46;
+  color: #ffd3f7;
+  border-radius: 5px;
+  border-color: #112a46;
+  width: 200px;
+  height: 40px;
+}
