@@ -148,12 +148,13 @@ main {
   margin-top: 80px;
 }
 
-button {
+.login {
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
+  text-decoration: none;
   font-size: 18px;
   background-color: #112a46;
   color: #ffd3f7;
@@ -161,4 +162,52 @@ button {
   border-color: #112a46;
   width: 200px;
   height: 40px;
+  transition: filter 0.2s;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 18px;
+  background-color: #112a46;
+  color: #ffd3f7;
+  border-radius: 5px;
+  border-color: #112a46;
+  width: 200px;
+  height: 40px;
+  transition: filter 0.2s;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  color: #112a46;
+  border-radius: 5px;
+  width: 200px;
+  height: 40px;
+  transition: filter 0.2s;
+}
+
+button:hover {
+  cursor: pointer;
+  filter: brightness(0.9);
+}
+
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+  color: #112a46;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
